@@ -8,6 +8,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-50: oklch(98.7% 0.022 95.277);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
+    --color-white: #fff;
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -183,8 +186,23 @@
       max-width: 96rem;
     }
   }
+  .flex {
+    display: flex;
+  }
   .table {
     display: table;
+  }
+  .h-30 {
+    height: calc(var(--spacing) * 30);
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
+  .w-\[293px\] {
+    width: 293px;
+  }
+  .w-\[500px\] {
+    width: 500px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -192,19 +210,185 @@
   .resize {
     resize: both;
   }
+  .items-center {
+    align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .gap-x-3 {
+    column-gap: calc(var(--spacing) * 3);
+  }
+  .gap-x-5 {
+    column-gap: calc(var(--spacing) * 5);
+  }
+  .gap-x-6 {
+    column-gap: calc(var(--spacing) * 6);
+  }
+  .gap-x-8 {
+    column-gap: calc(var(--spacing) * 8);
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-\[10\] {
+    border-radius: 10;
+  }
+  .rounded-\[10p\] {
+    border-radius: 10p;
+  }
+  .rounded-\[10px\] {
+    border-radius: 10px;
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[\#192335\] {
+    border-color: #192335;
+  }
+  .border-\[rgb\(25\,35\,53\)\] {
+    border-color: rgb(25,35,53);
+  }
+  .border-\[rgba\(25\,35\,53\,0\.2\)\] {
+    border-color: rgba(25,35,53,0.2);
+  }
+  .border-\[rgba\(25\,35\,53\,0\.96\)\] {
+    border-color: rgba(25,35,53,0.96);
+  }
+  .bg-\[\#25C6DA\] {
+    background-color: #25C6DA;
+  }
+  .bg-\[\#F3F6FB\] {
+    background-color: #F3F6FB;
+  }
+  .bg-\[\#\] {
+    background-color: #;
+  }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\/img\/earth\.png\'\)\] {
+    background-image: url('/img/earth.png');
+  }
+  .bg-\[url\(\'im\'\)\] {
+    background-image: url('im');
+  }
+  .bg-\[url\(\'img\'\)\] {
+    background-image: url('img');
+  }
+  .bg-\[url\(\'img\/\'\)\] {
+    background-image: url('img/');
+  }
+  .bg-\[url\(\'img\/earth\.png\'\)\] {
+    background-image: url('img/earth.png');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .p-\[14px\] {
+    padding: 14px;
+  }
+  .p-\[15px\] {
+    padding: 15px;
+  }
+  .p-\[16px\] {
+    padding: 16px;
+  }
+  .p-\[17px\] {
+    padding: 17px;
+  }
+  .p-\[18px\] {
+    padding: 18px;
+  }
+  .p-\[20px\] {
+    padding: 20px;
+  }
+  .py-\[12px\] {
+    padding-block: 12px;
+  }
+  .py-\[24\] {
+    padding-block: 24;
+  }
+  .py-\[24px\] {
+    padding-block: 24px;
+  }
+  .py-\[25px\] {
+    padding-block: 25px;
+  }
+  .py-\[45px\] {
+    padding-block: 45px;
+  }
+  .pl-\[20px\] {
+    padding-left: 20px;
+  }
   .font-inter {
     font-family: var(--font-inter);
+  }
+  .text-\[1px\] {
+    font-size: 1px;
+  }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[14px\] {
+    font-size: 14px;
+  }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
+  .text-\[\#25C6DA\] {
+    color: #25C6DA;
+  }
+  .text-\[\#192335\] {
+    color: #192335;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[hsl\(219\,36\%\,15\%\)\] {
+    color: hsl(219,36%,15%);
+  }
+  .text-\[rgb\(25\,35\,53\)\] {
+    color: rgb(25,35,53);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
   }
+  .opacity-\[\.20\] {
+    opacity: .20;
+  }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .outline-0 {
+    outline-style: var(--tw-outline-style);
+    outline-width: 0px;
   }
 }
 @layer components {
