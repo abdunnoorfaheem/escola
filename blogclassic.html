@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Classic Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <section>
+      <!-- top navbar start -->
+      <div class="bg-[#F3F6FB] py-[12px]">
+        <div class="container">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-y-2"
+          >
+            <div>
+              <h5 class="text-[#192335] text-[14px] md:text-[16px]">
+                <i class="fa-solid fa-location-dot"></i> 6391 Elgin St. Celina,
+                10299
+              </h5>
+            </div>
+            <div
+              class="flex flex-col md:flex-row gap-y-2 md:gap-x-8 text-[14px] md:text-[16px]"
+            >
+              <h5><i class="fa-solid fa-phone"></i> (629) 555-0129</h5>
+              <h5><i class="fa-regular fa-envelope"></i> info@example.com</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- top navbar end -->
+
+      <!-- navbar start -->
+      <div class="py-[25px]">
+        <div class="container">
+          <div class="flex flex-wrap justify-between items-center gap-y-4">
+            <div class="w-full md:w-auto flex justify-center md:justify-start">
+              <img
+                src="img/logo.png"
+                alt="logo.png"
+                class="h-[45px] md:h-[55px]"
+              />
+            </div>
+
+            <div class="w-full md:w-auto">
+              <ul
+                class="text-[#192335] hidden md:flex flex-wrap justify-center md:justify-start gap-x-3 gap-y-2 items-center text-[14px] md:text-[16px]"
+              >
+                <li>
+                  <a href=""
+                    >Home<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""
+                    >About Us<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""
+                    >Services<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""
+                    >Projects<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""
+                    >Blog<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""
+                    >Page<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""
+                    >Contact<i
+                      class="fa-solid fa-angle-down text-[10px] ml-[4px]"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="w-full md:w-auto flex justify-center md:justify-end items-center gap-x-3 flex-wrap"
+            >
+              <input
+                type="text"
+                placeholder="Search"
+                class="text-[#192335] border border-[rgba(25,35,53,0.2)] py-[10px] pl-[16px] w-full md:w-[220px] lg:w-[293px] outline-0 rounded-[10px] text-[14px]"
+              />
+              <div
+                class="bg-[#25C6DA] text-white p-[12px] rounded-[10px] text-[14px]"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div
+                class="bg-[#F3F6FB] text-[#25C6DA] p-[12px] rounded-[10px] text-[14px]"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar end -->
+    </section>
+    <!-- header section end -->
+    <!-- Top Section -->
+    <section class="max-w-[1320px] mx-auto px-4 py-12 text-center">
+      <h1 class="text-2xl md:text-3xl font-semibold mb-2">Blog Classic</h1>
+      <nav class="text-sm font-bold">
+        <a href="#" class="hover:text-blue-600">Home</a>
+        <span class="mx-2">›</span>
+        <span>Blog Classic</span>
+      </nav>
+    </section>
+
+    <!-- Main Section -->
+    <section
+      class="max-w-[1320px] mx-auto px-4 py-10 grid lg:grid-cols-3 gap-8"
+    >
+      <!-- Left: Blog Posts -->
+      <div class="lg:col-span-2 space-y-10">
+        <!-- Post 1 -->
+        <div class="bg-white shadow-sm">
+          <img
+            src="./img/antique-books-on-shelves.jpg"
+            alt=""
+            class="h-56 sm:h-64 md:h-72 w-full"
+          />
+
+          <div class="p-6">
+            <div
+              class="flex flex-wrap items-center gap-3 text-sm text-gray-950 mb-2"
+            >
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-user-tie"></i>
+                <span>by admin</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-list"></i>
+                <span>Category</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-calculator"></i>
+                <span>October 19, 2025</span>
+              </div>
+            </div>
+            <h2 class="text-xl md:text-2xl font-semibold mb-3">
+              Unleashing Your Inner Genius: A Guide to Achieving Your Ambitions
+            </h2>
+            <p class="text-gray-950 mb-4">
+              Aliquam eros justo, posuere loborti viverra lao ullamcorper
+              posuere viverra .Aliquam eros justo, posuere Aliquam eros justo,
+              posuere loborti viverra laoreet matti ullamcorper
+            </p>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >Read More →</a
+            >
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="bg-white shadow-sm">
+          <img
+            src="./img/reference-books-on-shelves.jpg"
+            alt=""
+            class="h-56 sm:h-64 md:h-72 w-full"
+          />
+
+          <div class="p-6">
+            <div
+              class="flex flex-wrap items-center gap-3 text-sm text-gray-950 mb-2"
+            >
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-user-tie"></i>
+                <span>by admin</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-list"></i>
+                <span>Category</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-calculator"></i>
+                <span>October 19, 2025</span>
+              </div>
+            </div>
+            <h2 class="text-xl md:text-2xl font-semibold mb-3">
+              Educating for Success: A Guide to Achieving Your Goals
+            </h2>
+            <p class="text-gray-950 mb-4">
+              Aliquam eros justo, posuere loborti viverra lao ullamcorper
+              posuere viverra .Aliquam eros justo, posuere Aliquam eros justo,
+              posuere loborti viverra laoreet matti ullamcorper
+            </p>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >Read More →</a
+            >
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="bg-white rounded-xl shadow-sm">
+          <img
+            src="./img/stacks-of-hardback-books.jpg"
+            alt=""
+            class="h-56 sm:h-64 md:h-72 w-full"
+          />
+
+          <div class="p-6">
+            <div
+              class="flex flex-wrap items-center gap-3 text-sm text-gray-950 mb-2"
+            >
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-user-tie"></i>
+                <span>by admin</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-list"></i>
+                <span>Category</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-calculator"></i>
+                <span>October 19, 2025</span>
+              </div>
+            </div>
+            <h2 class="text-xl md:text-2xl font-semibold mb-3">
+              Unlocking Your Potential: A Guide to Achieving Your Dreams
+            </h2>
+            <p class="text-gray-950 mb-4">
+              Aliquam eros justo, posuere loborti viverra lao ullamcorper
+              posuere viverra .Aliquam eros justo, posuere Aliquam eros justo,
+              posuere loborti viverra laoreet matti ullamcorper
+            </p>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >Read More →</a
+            >
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="flex justify-center gap-2 mt-8 flex-wrap">
+          <button
+            class="px-3 py-2 bg-blue-600 rounded-lg hover:bg-blue-100 transition"
+          >
+            1
+          </button>
+          <button
+            class="px-3 py-2 bg-white rounded-lg hover:bg-blue-100 transition"
+          >
+            2
+          </button>
+          <button
+            class="px-3 py-2 bg-white rounded-lg hover:bg-blue-100 transition"
+          >
+            3
+          </button>
+          <button
+            class="px-3 py-2 bg-white rounded-lg hover:bg-blue-100 transition"
+          >
+            4
+          </button>
+          <button
+            class="px-3 py-2 bg-white rounded-lg hover:bg-blue-100 transition"
+          >
+            →
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Sidebar -->
+      <aside class="space-y-8">
+        <!-- Search -->
+        <div class="bg-white p-5 rounded-xl shadow-sm">
+          <h3 class="font-semibold mb-3 text-lg">Search Here</h3>
+          <div class="border border-gray-600 mb-3"></div>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="border w-full px-3 py-2 rounded-lg"
+          />
+        </div>
+
+        <!-- Recent Posts -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm">
+          <!-- Title -->
+          <h2 class="text-2xl font-bold text-gray-950 mb-6">Recent Posts</h2>
+          <div class="border border-gray-600 mb-3"></div>
+
+          <!-- Post List -->
+          <div class="space-y-5">
+            <!-- Post 1 -->
+            <div
+              class="flex items-center gap-4 hover:bg-gray-50 p-2 rounded-lg transition"
+            >
+              <img
+                src="./img/books-about-books.jpg"
+                alt=""
+                class="w-20 h-16 object-cover rounded-lg"
+              />
+              <div>
+                <h3
+                  class="text-sm font-semibold text-gray-950 hover:text-blue-600 cursor-pointer"
+                >
+                  The Benefits of Education: A Guide for Students
+                </h3>
+                <p class="text-xs text-gray-950 mt-1">October 21, 2025</p>
+              </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div
+              class="flex items-center gap-4 hover:bg-gray-50 p-2 rounded-lg transition"
+            >
+              <img
+                src="./img/hard-cover-books.jpg"
+                alt=""
+                class="w-20 h-16 object-cover rounded-lg"
+              />
+              <div>
+                <h3
+                  class="text-sm font-semibold text-gray-950 hover:text-blue-600 cursor-pointer"
+                >
+                  Exploring the Impact of Education: A Compre Guide
+                </h3>
+                <p class="text-xs text-gray-950 mt-1">October 20, 2025</p>
+              </div>
+            </div>
+
+            <!-- Post 3 -->
+            <div
+              class="flex items-center gap-4 hover:bg-gray-50 p-2 rounded-lg transition"
+            >
+              <img
+                src="./img/tulips-drink-and-books.jpg"
+                alt=""
+                class="w-20 h-16 object-cover rounded-lg"
+              />
+              <div>
+                <h3
+                  class="text-sm font-semibold text-gray-950 hover:text-blue-600 cursor-pointer"
+                >
+                  Unlocking the Power of Education: A ComprehensiLook
+                </h3>
+                <p class="text-xs text-gray-950 mt-1">October 18, 2025</p>
+              </div>
+            </div>
+
+            <!-- Post 4 -->
+            <div
+              class="flex items-center gap-4 hover:bg-gray-50 p-2 rounded-lg transition"
+            >
+              <img
+                src="./img/vintage-and-antique-leather-bound-books.jpg"
+                alt=""
+                class="w-20 h-16 object-cover rounded-lg"
+              />
+              <div>
+                <h3
+                  class="text-sm font-semibold text-gray-950 hover:text-blue-600 cursor-pointer"
+                >
+                  The Benefits of Education: A Guide for Students
+                </h3>
+                <p class="text-xs text-gray-950 mt-1">October 16, 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popular Tags -->
+        <div class="bg-white p-5 rounded-xl shadow-sm">
+          <h3 class="font-semibold mb-3 text-lg">Popular Tags</h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Facilities</span
+            >
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Children</span
+            >
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Policy</span
+            >
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Vote</span
+            >
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Medical</span
+            >
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Education</span
+            >
+            <span
+              class="px-3 py-1 bg-gray-100 text-sm rounded-lg hover:bg-blue-100 cursor-pointer"
+              >Meeting</span
+            >
+          </div>
+        </div>
+      </aside>
+    </section>
+    <!-- footer section start -->
+    <section>
+      <div
+        class="bg-[url('/img/footerbg.png')] pt-[80px] md:pt-[110px] pb-[60px] md:pb-[96px] bg-no-repeat bg-center bg-cover"
+      >
+        <div class="container">
+          <!-- footer top start -->
+          <div
+            class="flex flex-col lg:flex-row justify-between items-start gap-y-8 text-center lg:text-left m-auto"
+          >
+            <div class="lg:w-1/4">
+              <img src="img/logo.png" alt="logo.png" class="mx-auto lg:mx-0" />
+              <p
+                class="w-full md:w-[220px] mt-[22px] mb-[30px] text-[#192335] mx-auto lg:mx-0"
+              >
+                Lorem Ipsum is simply dummy texis the printing Lorem Ips is
+                simply dummy text
+              </p>
+              <div class="flex justify-center lg:justify-start gap-x-3">
+                <img src="img/twiteer.png" alt="twiteer.png" />
+                <img src="img/facebook.png" alt="facebook.png" />
+                <img src="img/instragram.png" alt="instragram.png" />
+                <img src="img/pin.png" alt="pin.png" />
+              </div>
+            </div>
+
+            <div class="text-[#192335] lg:w-1/4">
+              <h3 class="font-bold text-[20px] md:text-[24px] pb-[20px]">
+                All Links
+              </h3>
+              <ul class="">
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Credit industrys
+                </li>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Credit Consulting
+                </li>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Business Credit industry
+                </li>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Finance industry
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-[#192335] lg:w-1/4">
+              <h3 class="font-bold text-[20px] md:text-[26px] pb-[20px]">
+                More Service
+              </h3>
+              <ul>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Ui Design
+                </li>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Ux Design
+                </li>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Digital Marketing
+                </li>
+                <li class="pb-[8px]">
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Video Editing
+                </li>
+                <li>
+                  <i class="fa-solid fa-arrow-right text-[14px] mr-[10px]"></i>
+                  Pc Repairs
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-[#192335] lg:w-1/4">
+              <h3 class="font-bold text-[20px] md:text-[26px] pb-[22px]">
+                Get In Touch
+              </h3>
+              <h4 class="mb-[10px]">E-mail: example@mail.com</h4>
+              <h4 class="mb-[10px]">Call: +125 856 632</h4>
+              <p class="w-full md:w-[300px] mx-auto lg:mx-0 mb-[30px]">
+                Location: 3 Number Road, C block, Housing, USA
+              </p>
+            </div>
+          </div>
+          <!-- footer top end -->
+        </div>
+
+        <!-- footer bottom start -->
+        <div class="pt-[50px] md:pt-[103px] h-[80px]">
+          <hr class="text-[#1923354a]" />
+          <div class="container">
+            <div
+              class="flex flex-col md:flex-row justify-between items-center py-[20px] gap-y-2 text-center md:text-left"
+            >
+              <h5>© Yoursitename 2023 | All Rights Reserved</h5>
+              <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                <h5>Terms & Condition</h5>
+                <h5>Privacy Policy</h5>
+                <h5>Contact Us</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer bottom end -->
+      </div>
+    </section>
+    <!-- footer section end -->
+  </body>
+</html>
