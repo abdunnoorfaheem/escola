@@ -1,10 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
+
 @theme {
   --font-inter: "Inter", sans-serif;
+<<<<<<< HEAD
+=======
+  --color-primary: #2F57EF;
+>>>>>>> b66ebe40db7608630efc05a45f03d6a0ceabbdd6
 }
 @layer components {
   .container {
     @apply max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
+<<<<<<< HEAD
+=======
+
+.HeroImg{
+  width: 816px;
+  height: 742px;
+  background-image: url("../img/UniversityHeroImg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HeroBox{
+  width: 793px;
+  height: 624px;
+  background-color: aliceblue;
+  clip-path: polygon(14% 0, 100% 0%, 100% 100%, 0 100%);
+}
+.UniversityProfessor{
+  width: 701px;
+  height: 302px;
+  background-image: url("../img/UniversityProfessor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.KnowledgeBg{
+  height: 876px;
+  background-image: url("../img/Education.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+  max-width: 1320px;
+}
+>>>>>>> b66ebe40db7608630efc05a45f03d6a0ceabbdd6
