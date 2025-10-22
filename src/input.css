@@ -3,18 +3,13 @@
 
 @theme {
   --font-inter: "Inter", sans-serif;
-<<<<<<< HEAD
-=======
   --color-primary: #2F57EF;
->>>>>>> b66ebe40db7608630efc05a45f03d6a0ceabbdd6
 }
 @layer components {
   .container {
     @apply max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
-<<<<<<< HEAD
-=======
 
 .HeroImg{
   width: 816px;
@@ -49,4 +44,3 @@
 .container{
   max-width: 1320px;
 }
->>>>>>> b66ebe40db7608630efc05a45f03d6a0ceabbdd6
