@@ -15,13 +15,17 @@
   </head>
   <body class="bg-gray-50 font-inter">
     <!-- Top Section -->
-    <section class="max-w-[1320px] mx-auto px-4 py-12 text-center">
-      <h1 class="text-2xl md:text-3xl font-semibold mb-2">Blog Classic</h1>
-      <nav class="text-sm font-bold">
-        <a href="#" class="hover:text-blue-600">Home</a>
-        <span class="mx-2">›</span>
-        <span>Blog Classic</span>
-      </nav>
+    <section
+      class="bg-[url(/img/Hero.png)] bg-cover bg-center bg-no-repeat h-[480px] flex justify-center items-center"
+    >
+      <div class="max-w-[1320px] mx-auto text-center">
+        <h1 class="text-2xl md:text-3xl font-semibold mb-2">Blog Classic</h1>
+        <nav class="text-sm font-bold">
+          <a href="#" class="hover:text-blue-600">Home</a>
+          <span class="mx-2">›</span>
+          <span>Blog Classic</span>
+        </nav>
+      </div>
     </section>
 
     <!-- Main Section -->
@@ -189,11 +193,16 @@
         <div class="bg-white p-5 rounded-xl shadow-sm">
           <h3 class="font-semibold mb-3 text-lg">Search Here</h3>
           <div class="border border-gray-600 mb-3"></div>
-          <input
-            type="text"
-            placeholder="Search..."
-            class="border w-full px-3 py-2 rounded-lg"
-          />
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="Search..."
+              class="border w-full px-3 py-2 rounded-lg"
+            />
+            <i
+              class="fa-solid fa-magnifying-glass absolute top-3.5 right-5"
+            ></i>
+          </div>
         </div>
 
         <!-- Recent Posts -->
@@ -228,7 +237,7 @@
               class="flex items-center gap-4 hover:bg-gray-50 p-2 rounded-lg transition"
             >
               <img
-                src="./img/hard-cover-books.jpg"
+                src="./img/book.jpg"
                 alt=""
                 class="w-20 h-16 object-cover rounded-lg"
               />
